@@ -1,0 +1,26 @@
+{
+  "name": "cron_job_scheduale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshjangid/node_js_cron_schedule.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganeshjangid/node_js_cron_schedule/issues"
+  },
+  "homepage": "https://github.com/ganeshjangid/node_js_cron_schedule#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "node-cron": "2.0.3",
+    "nodemailer": "6.4.2"
+  }
+}
